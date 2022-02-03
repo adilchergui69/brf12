@@ -1,0 +1,119 @@
+
+body {
+    background: #eee;
+    font-family: "Audiowide", sans-serif;
+}
+
+#regForm {
+    background-color: #ffffff;
+    margin: 0px auto;
+    padding: 40px;
+    border-radius: 10px
+}
+
+#register {
+    color: #f4e51a
+}
+
+h1 {
+    text-align: center
+}
+
+input {
+    padding: 10px;
+    width: 100%;
+    font-size: 17px;
+    font-family: Raleway;
+    border: 1px solid #aaaaaa;
+    border-radius: 10px;
+    -webkit-appearance: none
+}
+
+.radio{
+    width: 0%;
+
+
+}
+
+.tab input:focus {
+    border: 1px solid #f4e51a !important;
+    outline: none
+}
+
+input.invalid {
+    border: 1px solid #e03a0666
+}
+
+.tab {
+    display: none
+}
+
+button {
+    background-color: #f4e51a;
+    color: #000000;
+    border: none;
+    border-radius: 50%;
+    padding: 10px 20px;
+    font-size: 17px;
+    font-family: Raleway;
+    cursor: pointer
+}
+
+button:hover {
+    opacity: 0.8
+}
+
+button:focus {
+    outline: none !important
+}
+
+#prevBtn {
+    background-color: #e3e3e3;
+}
+
+.all-steps {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    display: inline-flex;
+    justify-content: center
+}
+
+.step {
+    height: 40px;
+    width: 40px;
+    margin: 0 2px;
+    background-color: #000000;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: #f4e51a;
+    opacity: 0.5
+}
+
+.step.active {
+    opacity: 1
+}
+
+.step.finish {
+    color: #fff;
+    background: #f4e51a;
+    opacity: 1
+}
+
+.all-steps {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px
+}
+
+.thanks-message {
+    display: none
+}
+.borders {
+    border: 2px black solid !important;
+}
